@@ -1,0 +1,126 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    transition: 0.5s; /*agar perubahannya smooth*/
+
+}
+
+h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+/* HP */
+@media screen and (min-width:480px){
+    body{
+        background-color: cornflowerblue;
+    }
+
+    h1{
+        font-size: 28px;
+        color: white;
+        font-family:'Franklin Gothic Medium', Arial, sans-serif;
+    }
+
+    p{
+        font-size: 16px;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+}
+
+/* Tablet*/
+@media screen and (min-width:600px){
+    body{
+        background-color: lightseagreen;
+    }
+
+    h1{
+        font-family: Verdana, sans-serif;
+        color: yellow;
+    }
+
+    p{
+        font-family: Verdana, sans-serif;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:768px){
+    body{
+        background-color: rgb(197, 243, 111);
+    }
+
+    h1{
+        font-size: 36px;
+        color: darkgreen;
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+    }
+
+    p{
+        font-size: 18px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width:992px){
+    body{
+        background-color: plum;
+    }
+
+    h1{
+        font-family: Georgia, serif;
+        color: darkblue;
+    }
+
+    p{
+        font-family: Georgia, serif;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width:1200px){
+    body{
+        background-color: coral;
+    }
+
+    h1{
+        font-size: 48px;
+        color: black;
+        letter-spacing: 3px;
+        font-family: Impact, sans-serif;
+    }
+
+    p{
+        font-size: 20px;
+        width: 50%;
+        margin: auto;
+        line-height: 1.8;
+        font-family: Tahoma, sans-serif;
+    }
+}
+
+/* Desktop gede */
+@media screen and (min-width:1400px){
+    body{
+        background-color: gold;
+    }
+
+    h1{
+        font-family: Courier New, monospace;
+        color: darkred;
+    }
+
+    p{
+        font-family: Courier New, monospace;
+    }
+}
